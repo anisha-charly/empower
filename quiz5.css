@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #f5f1ed;
 }
 
 .container {
@@ -10,6 +11,9 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .header {
@@ -23,6 +27,7 @@ body {
 
 .question {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .question-image {

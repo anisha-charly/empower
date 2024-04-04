@@ -37,7 +37,7 @@ function createSection(section) {
     // Add event listener to handle clicks on sections
     sectionElement.addEventListener("click", function() {
         if (section.title === "Beginner" && section.ageGroup === "3-5") {
-            window.location.href = "file:///C:/Users/acer/Desktop/login/quiz5.html"; // Redirect to quiz5.html
+            window.location.href = "/quiz5.html"; // Redirect to quiz5.html
         } else {
             navigateToPage(section.title.toLowerCase()); // Assuming section title can be used as a page identifier
         }
